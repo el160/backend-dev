@@ -1,0 +1,274 @@
+
+form{
+    width: 100%; 
+ }
+     
+     #login-form{
+         display: none;
+     }
+ 
+ label, input{
+     display: block;
+     margin: 0 0 10px o;
+     padding: 10px;
+ }
+
+ form input{
+    width:20%;
+    height:6px;
+    
+ }
+ .container{
+    display: flex;
+ }
+ .error { 
+     color :brown
+     
+ }
+ 
+ /* WEEK 3*/
+ 
+ body{
+     display:flexbox;
+     background-color: white
+ 
+     
+ 
+     
+ }
+ .logo-container h1 {
+     margin: 0%;
+     display: flex;
+ }
+ /*logo  styling*/
+ .logo-container{
+     display: block;
+             justify-content: center;
+             align-items: center;
+             padding: 20px;
+             background-color: #f8f8f8;
+  
+ 
+ } 
+ .logo {
+     width: 100px; /* Adjust the size as needed */
+     height: auto;
+ }
+ /* /maintaining the aspect ratio*/
+ .logo-text{
+     font-size: 2rem; 
+ }/* on larger screens*/
+ 
+ /*navigation bar styling*/
+ 
+ .navbar {
+     background-color: grey;
+     display: block;
+     justify-content: space-between;
+     padding: 10px;
+     align-items: center;
+ }
+ .nav-links {
+     list-style: none;
+     display: flex;
+     gap: 20px;
+ }
+ 
+ .nav-links li {
+     margin: 0;
+ }
+ .nav-links a {
+     color: goldenrod;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ 
+ .nav-links a:hover {
+     text-decoration: bold;
+     font-style: italic;
+     color: blue;
+ }
+ 
+ /* styling main body*/
+ .content {
+     display: flex;
+     padding: 10px;
+     gap: 10px; /* gap between content and side bar*/
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ 
+ .main-content {
+     flex: 3;
+     background-color: white;
+     padding: 10px;
+ }
+ p{
+     text-overflow: ellipsis;
+ } /* styling the paragraph*/
+ 
+ /*side bar styling*/
+ .sidebar {
+     flex: 1;
+     background-color: #e0e0e0;
+     padding: 20px;
+     position: relative;
+ }
+ .sidebar input {
+     width: 90%;
+     padding: 10px;
+     margin-bottom: 20px;
+ }
+ .sidebar ul li {
+     margin-bottom: 10px;
+ }
+ 
+ .sidebar ul li a {
+     text-decoration:bold;
+     color: #333;
+ }
+ .sidebar:hover{
+     font-style: italic;
+     cursor: pointer;
+ }
+ 
+ 
+ /*styling the footer*/
+ .footer{
+     text-align: center;
+     padding: 20px;
+     margin-top: 20px;
+ }
+ .social-links a {
+     color: rgb(119, 113, 113);
+     text-decoration: bold;
+     margin: 10px;
+     
+ }
+ 
+ .social-links a:hover {
+     text-decoration: underline;
+     font-style: italic;
+     color: blue;
+ }
+ /* styling the toggle action at the nav bar*/
+ .menu-toggle {
+     display: none;
+     background: none;
+     border: none;
+     cursor: pointer;
+     padding: 10px;
+ }
+ /* styling the hamburger*/
+ .hamburger {
+     display: block;
+     width: 25px;
+     height: 3px;
+     background: #fff;
+     margin: 5px 0;
+ }
+ .nav{
+     font-size: 1.5em;
+ }
+ /*responsive design*/
+ /* larger screens>768p*/
+ @media(min-width){
+     .content{
+         flex: 1 1 30%;
+     }
+    
+     }
+ 
+ /*small screens<768px*/
+ @media (max-width : 768px) {
+     .content{
+         flex-direction: column; /* stack items vertically on smaller screens*/
+     }
+     body{
+         font-size: 0.9em;
+         padding: 10px;
+     }
+     .logo {
+         width: 150px; /* screen size of a tablets*/
+        margin: 0;
+     }
+     .logo-text{
+         font-size: 1.5rem;
+     }
+     .nav-links{
+         display: none;
+         flex-direction: column;
+         width: 100%;
+     }
+     .nav-links.active{
+         display: flex;
+     }
+     .menu-toggle {
+         display: block;
+     }
+ }
+ 
+ /* small screens <480px*/ /* mobile devices*/
+ @media(max-widht:480px){
+     .content{
+         flex: 1 1 100%;
+     }
+     body{
+     font-size: 0.8em;    
+     }
+     .logo image {
+         width: 100px;
+     }
+     .logo-text{
+         font-size: 1.2rem;
+     }
+ }
+ 
+ /* WEEK 2*/
+ 
+ body{
+     background-color: azure;
+     background-size: cover;
+     font-family: 'Times New Roman', Times, serif;
+     
+ }
+ 
+ h1 ,h2 ,h3{
+     font-size: larger;
+     color: rgb(255, 0, 81);
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 200;
+     border: 0cap;
+     
+ 
+ }
+ 
+ section{
+ font-family: 'Times New Roman', Times, serif;
+ background: linear-gradient(to right, azure, azure); /*gradient to enhance visual appeal*/
+ opacity: 0.9; /*transparency of the section*/
+ position: relative; /*how the section is positioned relative to other elements*/
+ 
+ }
+ section:hover {
+     background-color:rgb(11, 28, 212)
+     
+ } /*what happerns when someone hoovers over the section*/
+ 
+ .schedule{
+     align-items: center;
+     background-color: lightblue;
+ }
+ 
+ 
+  .OR{
+     padding: 3%;
+     margin: 11px;
+     text-align: center;
+  }
+  a:hover {
+    text-decoration: bold;
+    font-style: italic;
+    color: blue;
+}
+         

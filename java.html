@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QWIKmed: A Comprehensive Telemedicine Platform</title>
+    <link rel="stylesheet" href="style.css" >
+
+    
+    
+    
+        
+                
+</head>
+<body>
+
+    <header class="logo-container">
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <!-- Circle -->
+            <circle cx="50" cy="50" r="40" fill="purple" />
+            <!-- Text -->
+            <text x="50%" y="50%" text-anchor="middle" stroke="white" stroke-width="1px" dy=".3em" fill="#ffffff">QM</text>
+        </svg>
+        <h1>Connecting You to Heart Health Experts Anytime, Anywhere"</h1>
+        <P></P>
+    </div>
+</header>
+<!--navigation section-->
+<nav>
+<nav class="navbar">
+    
+        <div class="nav"></div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact"> Immediate Contact</a></li>
+</nav>
+<!--main content section-->
+<section>
+<div class="content">
+<main class="main-content">
+<h2>Personolized Heart Care For Every Age</h2>
+
+<P>At QwikMed, we focus on connecting patients of all ages with top cardiologists
+     who specialize in treating various heart conditions. Whether it's managing congenital heart defects in children 
+     or providing expert guidance for adults with cardiovascular issues, 
+     we offer tailored solutions for everyone. </P>
+     <h2> What We Can Offer</h2>
+     <p>
+         here we make sure that patients gets in quick touch with the respective doctors at just a click of a button
+         infront of their device screen. this means the patients can easily be booked and put in the waiting list 
+         for the next transplant or surgery.
+     </p>
+     <section>
+        <p3> We offer a wide range of services to meet the diverse needs of our clients, including:</p3>
+         <ul>
+             <li>Consulting</li>
+             <li>patient booking</li>
+             <li>registering donors</li>
+             <li>guidence and counselling</li>
+         </ul>
+       </section>
+    </main>
+    <!---side bar section-->
+    <aside class="sidebar">
+        <input type="text" placeholder="search...">
+        <h3>Why Choose QWIKmed</h3>
+       <p>Because you're our priority.
+        For more info read below;
+       </p> 
+        <ul>
+            <li><a href="#">top notch cardiologists</a></li>
+            <li><a href="#">personal infomation protection </a></li>
+            <li><a href="#"> convenience</a></li>
+            <li><a href="#"> Get started</a></li>
+        </ul>
+        
+        </div>
+    </aside>
+</div>
+</section>
+
+
+   <p> Below is the schedule of available specialists</p>
+          <div class="schedule">
+             <div class="specialist"> 0R 1</div>
+             <div class="specialist"> OR 2</div>
+             <div class="specialist"> OR 3</div>
+             <div class="specialist"> OR 4</div>
+             <div class="specialist"> OR 5</div>
+             <div class="specialist"> OR 6</div>
+         </div>
+         <br>
+         <br>
+         
+        
+            
+            <br>
+            <br>
+            
+            <p> Here is on how you can get started; </p>
+            <h3>Register</h3>
+
+            <form id="registrationform" method="post" action="/auth/register">
+                <div class="container">
+                  <label for="First-Name">First Name:</label>
+                <input type="text" id="First-Name" name="First-Name">
+                <span id="first-name-error" style="color:red;"></span>
+            
+                <label for="Last-Name">Last Name:</label>
+                <input type="text" id="Last-Name" name="Last-Name">
+                <span id="last-name-error" style="color:red;"></span>
+            
+                </div><br>
+                
+                <div class="container">
+                  <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <span id="password-error" style="color:red;"></span>
+            
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+                <span id="confirm-password-error" style="color:red;"></span>
+                </div><br>
+            
+                <div class="container">
+                  <label for="Age">Age:</label>
+                  <input type="text" id="Age" name="Age">
+                  <span id="age-error" style="color:red;"></span><br>
+                  <label for="Email">Email:</label>
+                <input type="text" id="Email" name="Email">
+                <span id="email-error" style="color:red;"></span<br>
+                </div> <br>
+                <div class="container">
+                <label for="Address" class="form-label">Address</label>
+    <input type="text" class="form-control" id="Address" placeholder="1234 main " required>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="date_of_birth" required>
+  </div><br>
+     
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <label>Male
+                        <input type="radio" id="male" name="Gender" value="male">
+                      </label>
+                      <label>Female
+                        <input type="radio" id="female" name="Gender" value="female">
+                      </label>
+                
+                <label>Preferred Contact Method:</label><br>
+                <label>Email
+                    <input type="radio" id="contact-email" name="contact" value="Email">
+                  </label>
+                  <label>Phone
+                    <input type="radio" id="contact-phone" name="contact" value="Phone">
+                  </label>
+                </fieldset>
+                
+
+        
+                
+            
+                <label for="Country">Country:</label>
+                <select id="Country" name="Country" required>
+                    <option value="" disabled selected>Select Your Country</option>
+                    <option value="KE">Kenya</option>
+                    <option value="US">United States</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="TZ">Tanzania</option>
+                    <option value="UG">Uganda</option>
+                    <option value="NG">Nigeria</option>
+                </select><br>
+            
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" >
+                    I agree to the <a href="#" target="_blank">Terms And Conditions</a>
+                    <span id="terms-error" style="color: red;"></span>
+                </label><br><br>
+            
+                <input type="submit" value="Register">
+            </form>  
+            <p> If you already have an accout you can log in below</p>
+            <h3><a href="#" id="login-link" >Login</a></h3>
+
+           
+
+            <form id="login-form" style="display: none;" method="post" action="/auth/login"> 
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+                <span id="username-error" style="color:red;"></span>
+            
+                <label for="user-email">User Email</label>
+                <input type="text" id="user-email" name="user-email">
+                <span id="user-email-error" style="color:red;"></span>
+            
+                <label for="user-password">User Password</label>
+                <input type="user-password" id="user-password" name="user-password">
+                <span id="user-password-error" style="color:red;"></span><br>
+            
+                <input type="submit" value="Log In">
+            </form>
+            <br>
+            <br>
+            
+            
+            
+           
+            <!--footer section-->
+<footer>
+    <footer class="footer">
+        <p>&copy; 2024 All Rights Reserved</p>
+        <div class="social-links"> <!--links to various social media platforms-->
+            <a href="https://facebook.com">Facebook</a> |
+            <a href="https://twitter.com">Twitter</a> |
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+        <p>Contact: ljhongeri04@mail.com</p>
+    </footer>
+</footer>
+<script  src="scripts.js" ></script> 
+
+<script> 
+// toggle the visibility of the login form        
+     document.getElementById("login-link").addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        const loginForm = document.getElementById("login-form");
+        loginForm.style.display = (loginForm.style.display === "none" || loginForm.style.display === "") ? "block" : "none";
+    });
+    
+</script>
+
+    
+    
+    
+<script>
+    document.getElementById('registrationform').addEventListener('submit', async function(e) {
+    e.preventDefault()
+    // const form = document.getElementById('registrationform');
+    const firstNameInput = document.getElementById('First-Name').value; 
+     const lastNameInput = document.getElementById('Last-Name').value;
+     const email = document.getElementById('Email').value; 
+    const password = document.getElementById('password').value; 
+    const male = document.getElementById('male').checked; 
+    const female = document.getElementById('female').checked;
+    const gender = male ? 'male' : female ? 'female' : '';
+    const Address = document.getElementById('Address').value;
+
+    //send the request to the server
+    const response = await fetch('/auth/registerUser',{
+        method:'POST',
+        headers:{
+            'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify({  firstNameInput,  lastNameInput, gender, email, password })
+//   }) .then(response => {
+//  if (response.ok) {
+//     return response.text(); // Return the HTML response as text
+//     console.log(response)
+//  } else {
+//    throw new Error('Error registering user');
+//  }
+//  })
+//  .then(htmlResponse => {
+//        // Handle the HTML response
+//    console.log(htmlResponse);
+  })
+    const data = await response.json();
+
+    console.log('server response,',data)
+    
+    alert(data.message,'New user created');
+});
+
+
+document.getElementById('login-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const email = document.getElementById('user-email').value; 
+    const password = document.getElementById('user-password').value; 
+
+    //send the request to the server
+    const response = await fetch('/auth/login', {
+        method: 'POST',
+        headers: {
+            'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify({ email, password })
+     })
+// .then(response => {
+//     if (!response.ok) {
+//       throw new Error(`Network response was not ok: ${response.status}`);
+//     }
+//     // Check the response type before parsing as JSON
+//     if (response.headers.get('Content-Type') === 'application/json') {
+//       return response.json();
+//     } else {
+//       return response.text(); // Return the response as text
+//     }
+//   }).then(data => {
+//     if (typeof data === 'string') {
+//       console.error('Error: Response is not JSON:', data);
+//     } else {
+//       console.log('JSON Data:', data);
+//     }
+//   })
+  .catch(error => console.error('Error:', error));
+
+    const data = await response.json();
+    alert(data.message + 'Welcome ' + data.name + ' of email address: ' + data.email);
+       
+});
+</script>
+    
+        </body>
+        
+        </html>
